@@ -16,3 +16,4 @@ jobs:
             - run: npm ci
             - run: npm run eslint
             - run: npm run prettier
+            # - run: npm run webpack
