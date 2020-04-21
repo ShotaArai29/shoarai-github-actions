@@ -1,0 +1,25 @@
+{
+    "name": "shoarai-github-actions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "eslint": "eslint --fix --color src/",
+        "fmt": "prettier --parser typescript --write \"src/**/*.{ts,tsx}\" ./kintone.d.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ShotaArai29/shoarai-github-actions.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ShotaArai29/shoarai-github-actions/issues"
+    },
+    "homepage": "https://github.com/ShotaArai29/shoarai-github-actions#readme",
+    "devDependencies": {
+        "@cybozu/eslint-config": "^10.0.2",
+        "eslint": "^6.8.0",
+        "prettier": "^2.0.4"
+    }
+}
