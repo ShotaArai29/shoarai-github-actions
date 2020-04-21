@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "eslint": "eslint --fix --color src/",
+        "prettier": "prettier --check src/",
         "fmt": "prettier --parser typescript --write \"src/**/*.{ts,tsx}\" ./kintone.d.ts"
     },
     "repository": {
