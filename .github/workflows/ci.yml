@@ -15,8 +15,5 @@ jobs:
                   node-version: "12.x"
             - run: npm ci
             - run: npm run eslint
-            - run: cp src/helloWorld.js original.js
-            - run: npm run fmt
-            - run: diff -wu src/helloWorld.js original.js
-            # - run: git --no-pager diff
+            - run: npm run prettier
             # - run: npm run webpack
