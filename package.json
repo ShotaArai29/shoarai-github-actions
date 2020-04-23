@@ -6,7 +6,7 @@
     "scripts": {
         "eslint": "eslint --fix --color src/",
         "prettier": "prettier --check --debug-check src/",
-        "fmt": "prettier --write \"src/**/*.{js,jsx}\""
+        "fmt": "prettier --loglevel debug --write \"src/**/*.{js,jsx}\""
     },
     "repository": {
         "type": "git",
