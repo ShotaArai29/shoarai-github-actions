@@ -16,5 +16,5 @@ jobs:
             - run: npm ci
             - run: npm run eslint
             - run: npm run fmt
-            - run: git diff
+            - run: git --no-pager diff
             # - run: npm run webpack
