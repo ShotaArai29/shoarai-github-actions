@@ -3,4 +3,4 @@ function hello(helloWorld) {
 }
 
 const aa = "aa";
-hello("aa");
+hello(aa);
