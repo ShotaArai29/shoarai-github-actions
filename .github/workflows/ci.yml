@@ -16,7 +16,7 @@ jobs:
             - run: npm ci
             - run: npm run eslint
             - run: cp src/helloWorld.js original.js
-            - run: npm run fmt
+            - run: npm run --loglevel debug fmt
             - run: diff -wu src/helloWorld.js original.js
             # - run: git --no-pager diff
             # - run: npm run webpack
