@@ -15,5 +15,6 @@ jobs:
                   node-version: "10.x"
             - run: npm ci
             - run: npm run eslint
-            - run: npm run prettier
+            - run: npm run fmt
+            - run: git diff
             # - run: npm run webpack
