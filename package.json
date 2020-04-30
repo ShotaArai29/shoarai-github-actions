@@ -6,7 +6,7 @@
     "scripts": {
         "eslint": "eslint --color src/",
         "prettier": "prettier --loglevel debug --check \"src/*.{js,jsx}\"",
-        "build": "webpack --mode production",
+        "webpack": "webpack --mode production",
         "fmt": "prettier --write \"src/*.{js,jsx}\""
     },
     "repository": {
