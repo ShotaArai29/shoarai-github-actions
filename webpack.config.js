@@ -1,5 +1,4 @@
 const path = require("path");
-const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const webpack = require("webpack");
 
 module.exports = {
@@ -33,23 +32,10 @@ module.exports = {
                 loader: "babel-loader",
                 exclude: /node_modules/,
             },
-            {
-                test: /\.(css)$/,
-                use: ["style-loader", "css-loader"],
-            },
-            {
-                test: /\.scss$/,
-                use: [
-                    "style-loader", // creates style nodes from JS strings
-                    "css-loader", // translates CSS into CommonJS
-                    "sass-loader", // compiles Sass to CSS, using Node Sass by default
-                ],
-            },
         ],
     },
     devtool: "source-map",
     plugins: [
-        new ForkTsCheckerWebpackPlugin(),
         new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     ],
 };

@@ -8,8 +8,6 @@ module.exports = function (api) {
                 corejs: 3,
             },
         ],
-        "@babel/preset-react",
-        "@babel/typescript",
     ];
     const plugins = [["@babel/proposal-class-properties"]];
     return {
