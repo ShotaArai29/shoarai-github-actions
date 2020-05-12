@@ -17,3 +17,7 @@ jobs:
             - run: npm run eslint
             - run: npm run prettier
             - run: npm run webpack
+            - uses: actions/upload-artifact@v2
+              with:
+                  name: webpack
+                  path: dist/
