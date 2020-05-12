@@ -4,8 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "eslint": "eslint --fix --color src/",
-        "fmt": "prettier --parser typescript --write \"src/**/*.{ts,tsx}\" ./kintone.d.ts"
+        "eslint": "eslint --color src/",
+        "prettier": "prettier --loglevel debug --check \"src/*.{js,jsx}\"",
+        "webpack": "webpack --mode production",
+        "fmt": "prettier --write \"src/*.{js,jsx}\""
     },
     "repository": {
         "type": "git",
@@ -18,8 +20,17 @@
     },
     "homepage": "https://github.com/ShotaArai29/shoarai-github-actions#readme",
     "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+        "@babel/plugin-transform-for-of": "^7.9.0",
+        "@babel/preset-env": "^7.9.6",
         "@cybozu/eslint-config": "^10.0.2",
+        "babel-loader": "^8.1.0",
+        "core-js": "^3.6.5",
         "eslint": "^6.8.0",
-        "prettier": "^2.0.4"
+        "prettier": "^2.0.5",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
     }
 }

@@ -8,6 +8,7 @@ module.exports = {
     rules: {
         // デフォルトは2. 自由に設定して良い
         indent: ["error", 4],
+        quotes: ["error", "double"],
     },
     globals: {
         kintone: "readonly",
