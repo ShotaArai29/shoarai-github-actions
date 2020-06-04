@@ -1,0 +1,11 @@
+{
+    "app": "3056",
+    "scope": "ALL",
+    "desktop": {
+        "js": ["./dist/helloWorld.js"],
+        "css": []
+    },
+    "mobile": {
+        "js": []
+    }
+}

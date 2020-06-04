@@ -4,3 +4,4 @@ function hello(helloWorld) {
 
 const aa = "aa";
 hello(aa);
+console.log("github actions");

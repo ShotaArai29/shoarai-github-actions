@@ -17,6 +17,7 @@ jobs:
             - run: npm run eslint
             - run: npm run prettier
             - run: npm run webpack
+            - run: npm run kintone-customize-uploader -- --password ${{ secrets.USER_PASSWORD }} --username ${{ secrets.USER_NAME }} --domain tech-tech-kintone.cybozu.com
             - uses: actions/upload-artifact@v2
               with:
                   name: webpack

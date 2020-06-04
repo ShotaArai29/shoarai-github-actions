@@ -7,7 +7,8 @@
         "eslint": "eslint --color src/",
         "prettier": "prettier --loglevel debug --check \"src/*.{js,jsx}\"",
         "webpack": "webpack --mode production",
-        "fmt": "prettier --write \"src/*.{js,jsx}\""
+        "fmt": "prettier --write \"src/*.{js,jsx}\"",
+        "kintone-customize-uploader": "kintone-customize-uploader customize-manifest.json"
     },
     "repository": {
         "type": "git",
@@ -26,6 +27,7 @@
         "@babel/plugin-transform-for-of": "^7.9.0",
         "@babel/preset-env": "^7.9.6",
         "@cybozu/eslint-config": "^10.0.2",
+        "@kintone/customize-uploader": "^3.0.5",
         "babel-loader": "^8.1.0",
         "core-js": "^3.6.5",
         "eslint": "^6.8.0",
