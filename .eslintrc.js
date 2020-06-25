@@ -4,12 +4,18 @@ module.exports = {
     extends: "@cybozu/eslint-config",
     env: {
         browser: true,
+        "jest/globals": true,
     },
     rules: {
-        // デフォルトは2. 自由に設定して良い
         indent: ["error", 4],
         quotes: ["error", "double"],
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error",
     },
+    plugins: ["jest"],
     globals: {
         kintone: "readonly",
         // CDN にライブラリを追加したら追記
