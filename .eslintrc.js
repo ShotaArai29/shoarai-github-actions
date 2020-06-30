@@ -7,7 +7,7 @@ module.exports = {
         "jest/globals": true,
     },
     rules: {
-        indent: ["error", 4],
+        indent: ["error", 4, { SwitchCase: 1 }],
         quotes: ["error", "double"],
         "jest/no-disabled-tests": "warn",
         "jest/no-focused-tests": "error",

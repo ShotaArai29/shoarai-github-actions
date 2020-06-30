@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "jest --color src/",
-        "eslint": "eslint --color src/",
-        "prettier": "prettier --loglevel debug --check \"src/*.{js,jsx}\"",
+        "eslint": "eslint --color  src/",
+        "prettier": "prettier --loglevel debug --write \"src/*.{js,jsx}\"",
         "webpack": "webpack --mode production",
         "fmt": "prettier --write \"src/*.{js,jsx}\"",
         "kintone-customize-uploader": "kintone-customize-uploader customize-manifest.json"
