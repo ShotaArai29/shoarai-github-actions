@@ -59,7 +59,7 @@
       "type": "SINGLE_LINE_TEXT",
       "label": "会社名",
       "noLabel": "false",
-      "code": "文字列__1行_",
+      "code": "company",
       "required": "false",
       "minLength": null,
       "maxLength": null,

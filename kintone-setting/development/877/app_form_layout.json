@@ -17,7 +17,7 @@
       "fields": [
         {
           "type": "SINGLE_LINE_TEXT",
-          "code": "文字列__1行_",
+          "code": "company",
           "size": {
             "width": "268"
           }
