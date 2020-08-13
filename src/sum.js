@@ -10,3 +10,11 @@ export const argChange = (arg) => {
             return "エラーE001";
     }
 };
+
+export const setProductCodeValueOnKintone = (
+    productCode
+) => {
+    // kintoneのグローバル関数を触る
+    const r = kintone.app.record.get();
+    kintone.app.record.set(r);
+};
