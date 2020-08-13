@@ -131,19 +131,6 @@
       "label": "作成者",
       "noLabel": false
     },
-    "文字列__1行_": {
-      "type": "SINGLE_LINE_TEXT",
-      "code": "文字列__1行_",
-      "label": "会社名",
-      "noLabel": false,
-      "required": false,
-      "minLength": "",
-      "maxLength": "",
-      "expression": "",
-      "hideExpression": false,
-      "unique": false,
-      "defaultValue": ""
-    },
     "ステータス": {
       "type": "STATUS",
       "code": "ステータス",
@@ -292,6 +279,19 @@
           "index": "0"
         }
       },
+      "defaultValue": ""
+    },
+    "company": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "company",
+      "label": "会社名",
+      "noLabel": false,
+      "required": false,
+      "minLength": "",
+      "maxLength": "",
+      "expression": "",
+      "hideExpression": false,
+      "unique": false,
       "defaultValue": ""
     },
     "日付_0": {
