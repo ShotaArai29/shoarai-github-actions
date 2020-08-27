@@ -1,0 +1,14 @@
+{
+  "name": "【荒井】デイリーアーカイブ開発",
+  "description": "<div>案件ごとに、受注の確度や金額はもちろん、活動の履歴も記録できるアプリです。</div>  <div>担当者別の案件数やその確度、今月の売上金額などを集計することもできます。</div>",
+  "icon": {
+    "type": "FILE",
+    "file": {
+      "fileKey": "202008130348484CEFD71478954BD3A0D5562ED8CDC313129",
+      "name": "appItem.png",
+      "contentType": "image/png",
+      "size": "3619"
+    }
+  },
+  "theme": "BINDER"
+}
