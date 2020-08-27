@@ -2,7 +2,7 @@
     "location": "kintone-setting",
     "env": {
         "development": {
-            "domaim": "pt-kintone.cybozu.com",
+            "domain": "pt-kintone.cybozu.com",
             "app": [877]
         }
     }
