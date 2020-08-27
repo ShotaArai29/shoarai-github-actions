@@ -20,7 +20,7 @@ jobs:
             - run: npm run test
             - run: npm run webpack
             # - run: npm run kintone-customize-uploader -- --password ${{ secrets.USER_PASSWORD }} --username ${{ secrets.USER_NAME }} --domain tech-tech-kintone.cybozu.com
-            - run: npx ginue pull -d pt-kintone.cybozu.com -a 877 -l dist/ginue -p ${{ secrets.USER_PASSWORD }} -u ${{ secrets.USER_NAME }}
+            - run: npx ginue pull -l dist/ginue -p ${{ secrets.USER_PASSWORD }} -u ${{ secrets.USER_NAME }}
             - uses: actions/upload-artifact@v2
               with:
                   name: webpack
